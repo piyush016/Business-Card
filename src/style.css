@@ -1,8 +1,8 @@
 /* Info */
 .Info-Photo{
     /* Defined image size */
-    height: 375px;
-    width: 475px;
+    height: 275px;
+    width: 375px;
     /* To center the image */
     display: block;
     margin-left: auto;
@@ -40,8 +40,12 @@
     padding-bottom: 7.5px ;
     border-radius: 22px;
 }
+.Info-Email:hover{
+    background-color: #F3BF99;
+
+}
 .Info-Span{
-    font-size: 35px;
+    font-size: 27px;
     padding-left: 30px;
 }
 
