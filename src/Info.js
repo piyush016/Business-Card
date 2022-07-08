@@ -12,7 +12,7 @@ const Info = () => {
             <a href="https://piyush016.github.io/Portfolio-Website/" target="_blank" rel="noreferrer" className="Info-Web">PIYUSH-WEBSITE</a>
         </div>
         <div className="container">
-            <a href="mailto:piyushcool116@gmail.com" className="Info-Email"><MdEmail className="Info-Icon"/><span className="Info-Span">E - MAIL</span></a>
+            <a href="mailto:piyushcool116@gmail.com" className="Info-Email"><MdEmail className="Info-Icon"/><span className="Info-Span">E-MAIL</span></a>
         </div>
 
     </>

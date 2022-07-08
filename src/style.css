@@ -35,8 +35,10 @@
 .Info-Email{
     background-color: #D1D5DB;
     color: #1E1F26;
-    width: 100%;
-    margin: 5px 20px 0px 20px;
+    width: 50%;
+    /* margin: 5px 20px 0px 20px; */
+    margin: 0 auto;
+    width: 500px;
     padding-bottom: 7.5px ;
     border-radius: 22px;
 }
@@ -45,18 +47,19 @@
 
 }
 .Info-Span{
-    font-size: 27px;
+    font-size: 22px;
     padding-left: 30px;
 }
 
 .Info-Icon{
     font-size: 30px;
-    margin-top: 5px;
+    margin: 2px 0px 0px ;
 }
 
 
 /* About Interest */
 .About-Heading, .Interest-Heading{
+    display: inline-block;
     margin: 30px 0px 0px 0px;
     padding-left: 5px;
     font-size: 32px;
@@ -74,7 +77,7 @@
     display: flex;
     justify-content: space-between;
     text-align: center;
-    margin: 45px 50px 100px;
+    margin: 45px 20px;
     font-size: 70px;
 }
 .Footer-Icon{
@@ -92,4 +95,26 @@
 }
 .Footer-Linkedin:hover{
     color: #2D86FF;
+}
+
+@media only screen and (max-width: 497px){
+	/*Small smartphones [325px -> 425px]*/
+    .Info-Photo{
+        display: inline-block;
+        width: 175px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* margin: 2px 50px; */
+    }
+    .Info-Span{
+        font-size: 15px;
+    }
+    .Info-Icon{
+        font-size: 20px;
+    }
+    .Footer-Container{
+        margin: 40px 10px;
+        font-size: 35px;
+    }
 }
