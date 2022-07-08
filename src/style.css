@@ -1,0 +1,91 @@
+/* Info */
+.Info-Photo{
+    /* Defined image size */
+    height: 375px;
+    width: 475px;
+    /* To center the image */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Info-Main{
+    text-align: center;
+}
+.Info-Name{
+    font-size: 37.5px;
+    font-weight: bold;
+}
+.Info-Job{
+    font-size: 19.2px;
+    color: #F3BF99;
+    margin: 2px 0 12px;
+}
+.Info-Web{
+    font-size: 16px;
+    color: #F5F5F5;
+    text-decoration: none;
+}
+
+.container{
+    display: flex;
+   text-align: center;
+    margin: 15px 60px 10px 60px;
+}
+.Info-Email{
+    background-color: #D1D5DB;
+    color: #1E1F26;
+    width: 100%;
+    margin: 5px 20px 0px 20px;
+    padding-bottom: 7.5px ;
+    border-radius: 22px;
+}
+.Info-Span{
+    font-size: 35px;
+    padding-left: 30px;
+}
+
+.Info-Icon{
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+
+/* About Interest */
+.About-Heading, .Interest-Heading{
+    margin: 30px 0px 0px 0px;
+    padding-left: 5px;
+    font-size: 32px;
+}
+.About-Data, .Interest-Data{
+    margin: 2px 5px 0px 0px;
+    padding-left: 5px;
+    font-size: 17px;
+    letter-spacing: 0.5px;
+}
+
+
+/* Footer */
+.Footer-Container{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 45px 50px 100px;
+    font-size: 70px;
+}
+.Footer-Icon{
+    text-decoration: none;
+    color: #918E9B;
+}
+.Footer-Facebook:hover{
+    color: #2D86FF;
+}
+.Footer-Insta:hover{
+    color: #f09433; 
+}
+.Footer-Github:hover{
+    color: #FFFFFF;
+}
+.Footer-Linkedin:hover{
+    color: #2D86FF;
+}
