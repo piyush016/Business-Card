@@ -1,5 +1,5 @@
 import React from 'react'
-import './app.css'
+import './style.css'
 import About from './About'
 import Info from './Info'
 import Interest from './Interest'

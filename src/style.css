@@ -1,3 +1,21 @@
+.App{
+    /* position: fixed; */
+    top: 0%;
+    left: 2%;
+    right: 2%;
+    background-color: rgb(35, 37, 44);
+    padding-top: 10px;
+    border: 2px solid yellow;
+}
+
+
+.MainBox{
+    /* border: 5px solid green; */
+    background-color: rgb(26, 27, 33);
+    margin: 0 auto;
+    width: 60%;
+    color: white;
+}
 /* Info */
 .Info-Photo{
     /* Defined image size */
